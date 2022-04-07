@@ -1,0 +1,8 @@
+<mjml>
+  <mj-head>
+    <mj-preview>
+      <!-- TODO Add mail preview -->
+    </mj-preview>
+  </mj-head>
+  <mj-body> hi {{name}} </mj-body>
+</mjml>
