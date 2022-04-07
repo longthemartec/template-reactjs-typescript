@@ -56,12 +56,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run test --watchAll=false --silent"
+      "pre-commit": "yarn run test --watchAll=false --silent && lint-staged"
     }
   },
   "lint-staged": {
     "**/*.{js,ts,tsx}": [
-      "pretty-quick --staged",
+      "yarn run pretty",
       "yarn run lint:fix"
     ]
   },
